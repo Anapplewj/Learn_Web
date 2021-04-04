@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let articles =[{
+            title:"草帽海贼团简介",
+            content:"和路飞一起海上冒险~"
+        },{
+            title:"路飞的简介",
+            content:"吃货~"
+        }];
+        // console的意思是控制台
+        console.log(articles[0]);
+        //stringfy 将一个对象转为字符串打印出来
+        console.log(JSON.stringify(articles))
+        //声明一个函数,参数不用定义变量类型
+        function c(x){
+            alert(x)
+        }
+    </script>
+</head>
+<body>
+    <!--    <script src="./Js/1.js"></script>-->
+    <input type="button" onclick="alert('abc')" value="点我">
+    <input type="button" onclick="c(123)" value="点我">
+    <input type="text" onblur="c('ttlxbb')">
+    <form action="xxx">
+        用户名: <input type="text" name="username"><br>
+        密码: <input type="password" name="password"><br>
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>
